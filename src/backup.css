@@ -11,7 +11,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #E1AFD1;
     border-radius: 30px;
-    min-width: 500px;
+    min-width: 375px;
     margin: 10px;
 }
 
@@ -100,7 +100,7 @@ p, h1 {
     font-weight: 300;
     font-size: 26px;
     text-align: justify;
-     color: #7469B6;
+    color: #7469B6;
 }
 
 
