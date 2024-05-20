@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: linear-gradient(45deg, #6a1b9a, #1a1a4b);
+    border-radius: 30px;
+    min-width: 500px;
+    margin: 10px;
+}
+
+#profile {
+    height: 145px;
+    width: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+p, h1 {
+    margin: 0;
+}
+
+.intro-container {
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    transition: opacity 1.0s ease;
+    border-radius: 22px;
+    margin: 20px;
+    padding: 40px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    grid-area: 1 /1/5/6 ;
+
+}
+
+.intro-container:hover {
+    opacity: 1;
+}
+.projects {
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    transition: opacity 1.0s ease;
+    border-radius: 22px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height:80px ;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    min-width: 240px;
+}
+
+.projects:hover {
+    opacity: 1;
+}
+
+.item1{
+    grid-area: 1/6/2/7;
+}
+
+.item2 {
+    grid-area: 1/7/2/8;
+}
+
+.item3{
+    grid-area: 2/6/3/7;
+}
+
+.item4 {
+    grid-area: 2/7/3/8;
+}
+
+.item5 {
+    grid-area: 3/6/4/8;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.recent-project {
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    transition: opacity 1.0s ease;
+    border-radius: 22px;
+    margin: 20px 15px;
+    padding: 30px;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    grid-area: 1/8/4/12;
+}
+.recent-project:hover {
+    opacity: 1;
+}
+
+
+.project-live {
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#name {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: #333333;
+}
+
+#role {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+   
+}
+
+#company {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 26px;
+
+}
+
+#intro {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: justify;
+    color: #333333;
+}
+
+.heading {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: justify;
+    color: #333333;
+}
+.description {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #333333;
+}
+
+.number {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #333333;
+}
+
